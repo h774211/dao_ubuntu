@@ -29,4 +29,4 @@ RUN sed -i 's/^#\s*\(deb.*universe\)$/\1/g' /etc/apt/sources.list
 EXPOSE 80 8080
 
 # overwrite this with 'CMD []' in a dependent Dockerfile
-CMD ["/bin/bash"]
+CMD []
